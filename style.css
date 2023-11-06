@@ -2,3 +2,70 @@
     background-image: url('https://picsum.photos/1300/500');
     background-position: center center;
 }
+
+body{
+    background-color:rgb(65, 61, 61);
+  }
+
+    
+    h1 {
+    font-family: 'Alkalami', serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mali', cursive;
+    font-family: 'Shadows Into Light', cursive;
+        }
+  
+  header {
+    font-family: 'Alkalami', serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mali', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: xxx-large;
+    color: rgb(255, 111, 166);
+        }
+    
+   p  {
+    font-family: 'Alkalami', serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mali', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    }
+  
+    .custombutton {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        overflow: hidden;
+        border-radius: 5px;
+        border: none;
+        background-color: #ced4da;
+      }
+      .custombutton:hover {
+        border-radius: 5px;
+        padding-right: 24px;
+        padding-left:8px;
+      }
+      .custombutton:hover:after {
+        opacity: 1;
+        right: 10px;
+      }
+      .custombutton:after {
+        content: "\00BB";
+        position: absolute;
+        opacity: 0;
+        font-size: 20px;
+        line-height: 40px;
+        top: 0;
+        right: -20px;
+        transition: 0.4s;
+      }
